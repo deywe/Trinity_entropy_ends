@@ -12,6 +12,7 @@ Google Drive (Source Video): Download Here
 https://drive.google.com/drive/folders/169XgNcj3OiekIUCLMiYBQ7DTj3K-ER1W?usp=drive_link
 
 YouTube: (Available on the Harpia Quantum Official Channel)
+https://youtu.be/IGopriVn_EE
 
 📁 Repository Structure
 This toolkit is divided into three fundamental pillars: the Generator, the Visualizer, and the Manifesto, along with the raw quantum telemetry.
