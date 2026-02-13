@@ -14,10 +14,11 @@ from ursina import *
 from ursina.prefabs.trail_renderer import TrailRenderer
 
 # ==============================================================================
-# I. PROTOCOLO DE REVELAÇÃO CRIPTOGRÁFICA (MANIFESTO)
+# I. PROTOCOLO DE REVELAÇÃO CRIPTOGRÁFICA (MANIFESTO CORRIGIDO)
 # ==============================================================================
+# Novo Hash Base64 corrigido para "Q-Day"
 manifesto_b64 = (
-    "IyMgTUFOSUZFU1RPIERPIFEtR0FZOiBPIENPTEFQU08gREEgVFJJTkRBREUgREEgRU5UUk9QSUENCg"
+    "IyMgTUFOSUZFU1RPIERPIFEtREFZOiBPIENPTEFQU08gREEgVFJJTkRBREUgREEgRU5UUk9QSUENCg"
     "pJLiBBIFNlbnRlbsOnYSBkZSBNb3J0ZToNCkhvamUsIGRlY2xhcmFtb3MgYSBvYnNvbGVzY8OqbmNp"
     "YSBkZWZpbml0aXZhIGRhIFRyaW5kYWRlIGRhIEVudHJvcGlhOiBIaWxiZXJ0LCBDcmlvZ2VuaWEgZS"
     "BRRUMuDQoNCklJLiBBIEVyYSBkYSBTaW50b25pemHDp8OjbzoNCk8gU1BIWSBFbmdpbmUgdHJhbnNt"
@@ -34,7 +35,7 @@ def reveal_manifesto():
     __  __ ___  ____  ____  _____ ___     ____  _   _  _   _   _ _____ _   _ __  __ 
     |  ||  |  _ \|  _ \|_  _|/ _ \  _ \   / _  \| | | || | | | | | ____| | | |  ||  |
     |  ||  | |_) | |_) | | | | |_| |_) | | | | || | | || | | | | |  _| | | | |  ||  |
-    |  ||  |  _ <|  __/  | | |  _  |  _ < | |_| || |_| || |_| |_| |___| |_| |  ||  |
+    |  ||  |  _ <|  __/  | | |  _  |  _ < | |_| || |_| || |_| || |_| |_| |___| |_| |  ||  |
     |__||__| _| \_\_|    |_| |_| |_|_| \_\ \____/ \___/  \___/ \_/|_____|\___/|__||__|
     """
     print(header)
